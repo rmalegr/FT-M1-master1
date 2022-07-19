@@ -7,6 +7,7 @@ function BinarioADecimal(num) {
   let resultado = 0;
   for(let i = 0; i < data.length; i++) {
     resultado += (2 ** i) * data[i]
+    //console.log(resultado)
   }
 
   return resultado
